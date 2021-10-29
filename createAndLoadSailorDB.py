@@ -24,8 +24,6 @@ mydb = mysql.connector.connect(
   allow_local_infile='1'  # needed so can load local files
 )
 
-
-
 print(mydb)
 myc = mydb.cursor()   # myc name short for "my cursor"
 
